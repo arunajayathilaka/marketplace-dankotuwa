@@ -8,4 +8,6 @@ public interface BaseView {
     void setPresenter(BasePresenter presenter);
     void showProgress();
     void hideProgress();
+    void dismissProgress();
+    void displayToast(String msg);
 }

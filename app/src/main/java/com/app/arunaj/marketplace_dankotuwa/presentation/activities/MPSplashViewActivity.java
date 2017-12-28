@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.app.arunaj.marketplace_dankotuwa.R;
+import com.app.arunaj.marketplace_dankotuwa.presentation.login.MPLoginActivity;
 
 public class MPSplashViewActivity extends AppCompatActivity {
 

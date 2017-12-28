@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".presentation.feature.MainActivity" />
-        <activity android:name=".presentation.activities.MPLoginActivity" />
+        <activity android:name=".presentation.login.MPLoginActivity" />
         <activity android:name=".presentation.activities.MPDashBoardActivity"></activity>
     </application>
 

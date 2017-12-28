@@ -27,4 +27,19 @@ public class ApiFactory {
         }
         return null;
     }
+
+    public static ApiClient getLoginApiClient() {
+        try {
+            return (ApiClient) apiClass.newInstance();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static void setApiClient(ApiClient apiClient) {
+        mApiClient = apiClient;
+    }
 }

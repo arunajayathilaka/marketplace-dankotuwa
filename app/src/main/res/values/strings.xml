@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">marketplace-dankotuwa</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_text">LOGIN</string>
+    <string name="forgot_password_text"><u>Forgot Password?</u></string>
+    <string name="password_empty_text">Please enter your password</string>
+    <string name="incorrect_email_text">Please enter a valid Email address</string>
+    <string name="error.response.null">Could not connect to the server. Internet unavailable or problem in server</string>
+    <string name="error.session.expired">Your session has expired. Please login again to continue</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_closed">closed</string>
 </resources>

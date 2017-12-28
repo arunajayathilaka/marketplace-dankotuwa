@@ -4,6 +4,7 @@ package com.app.arunaj.marketplace_dankotuwa.presentation;
  * Created by arunaj on 12/15/17.
  */
 
-public interface BasePresenter {
+public interface BasePresenter <V extends BaseView>{
+    void onAttached(V v);
     void onDestroy();
 }

@@ -1,10 +1,22 @@
 package com.app.arunaj.marketplace_dankotuwa.models.http;
 
-import com.app.arunaj.marketplace_dankotuwa.models.BaseModel;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by arunaj on 12/15/17.
+ * Created by imalkariyawasam on 8/28/17.
  */
 
-public class LoginRequest extends BaseModel {
+public class LoginRequest {
+    @SerializedName("username")
+    @Expose
+    private String mUsername;
+    @SerializedName("password")
+    @Expose
+    private String mPassword;
+
+    public LoginRequest(String username, String password) {
+        this.mUsername = username;
+        this.mPassword = password;
+    }
 }
